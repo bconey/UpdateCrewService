@@ -16,10 +16,10 @@
 
     <httpEndpoint host="*" httpPort="${default.http.port}" httpsPort="${default.https.port}" id="defaultHttpEndpoint" />
 
-    <!--
+    
      <webApplication contextRoot="${app.context.root}" location="C:/Users/BrianHanczaryk/git/UpdateCrewService/target/UpdateCrewService.war" name="UpdateCrewService">
      </webApplication>
-    -->
+    
 
     <cors 
      domain="/UpdateCrewService" 
